@@ -10,7 +10,7 @@
 
 body {
     background-color: black;
-    background-image: url(/bg.png);
+    background-image: url(bg.png);
     background-size: cover;
     background-position: center;
 }
