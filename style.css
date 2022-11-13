@@ -27,7 +27,7 @@ section {
     background-color: #CCFF00;
     mix-blend-mode: plus-lighter;
     border-radius: 10px;
-    padding: 20px 40px;
+    padding: 20px 30px;
     width: 500px;
     max-width: 90vw;
     display: flex;
@@ -42,22 +42,26 @@ section {
     flex-direction: column;
     align-items: center;
 }
-
-.box .data-filed {
+.box .all-data-filed{
+background: #ffffff8f;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+.box .all-data-filed .data-filed {
     display: flex;
     justify-content: center;
     width: 100%;
-    /* background: #ffffff8f;
-    border-radius: 5px; */
+        margin: 25px 0px;
 
 }
 
-.box .data-filed p.title {
+.box .all-data-filed .data-filed p.title {
     font-weight: bold;
     width: 50%;
 }
 
-.box .data-filed p {
+.box .all-data-filed .data-filed p {
     padding: 10px 20px;
     width: 50%;
 
