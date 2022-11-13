@@ -25,11 +25,13 @@ section {
 
 .container {
     background-color: #CCFF00;
+    mix-blend-mode: plus-lighter;
     border-radius: 10px;
     padding: 20px 40px;
-    min-width: 350px;
+    width: 500px;
     max-width: 90vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -45,6 +47,8 @@ section {
     display: flex;
     justify-content: center;
     width: 100%;
+    /* background: #ffffff8f;
+    border-radius: 5px; */
 
 }
 
@@ -74,4 +78,14 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.827);
     color: #CCFF00;
     font-weight: 700;
+}
+
+svg {
+    z-index: 0;
+    margin-top: -80px;
+    height: 100px;
+    /* transform: translate(0%, -200%); */
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
 }
